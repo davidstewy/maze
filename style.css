@@ -1,37 +1,41 @@
-body {
-display: flex;
-flex-direction: row;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-rows {
-display: flex;
+.cell {
+    width: 50px;
+    height: 50px;
+}
 
+.row {
+    display: flex;
 }
 
 .wall {
-width: 50px;
-height: 50px;
-border: 1px solid black;
-background: rebeccapurple;
+    border: 1px solid black;
+    background: rebeccapurple;
 }
 
 .empty {
-background: white;
-width: 50px;
-height: 50px;
-border: 1px solid black;
+    background: white;
+    border: 1px solid black;
 }
 
 .start {
-background: green;
-width: 50px;
-height: 50px;
-border: 1px solid black;
+    background: green;
+    border: 1px solid black;
 }
 
 .finish {
-background: red;
-width: 50px;
-height: 50px;
-border: 1px solid;
+    background: red;
+    border: 1px solid;
+}
+
+#player {
+    background-color: black;
+    width: 42px;
+    height: 42px;
+    margin: 4px;
 }
