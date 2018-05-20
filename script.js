@@ -49,7 +49,7 @@ function movePlayer(rowOffset, columnOffset) {
             targetCell.appendChild(playerDiv);
         }
         if (targetCell.dataset.cellType === "finish"){
-            console.log("winner winner chicken dinner");
+            setTimeout(function(){alert("You have conquered the greatest puzzle in all the land and have earned the right to be called El Jefe."); }, 100);
         }
     }
 }
